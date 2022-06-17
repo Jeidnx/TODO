@@ -1,0 +1,7 @@
+{
+  "extends": "next/core-web-vitals",
+  "rules": {
+    // We disable this Rule because `<h1>//TODO</h1>` gets detected as a comment, when it is intended as just the title.
+    "react/jsx-no-comment-textnodes": "off"
+  }
+}
